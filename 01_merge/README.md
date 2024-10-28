@@ -29,13 +29,24 @@
 
 7. Resolve Conflicts (if any): if changes on both branches modify the same parts of a file, Git may be unable to merge automatically and will mark these as conflicts. You need to resolve these conflicts manually, then complete the merge by staging the changes and committing them.
 
-example conflict
+### Example of a Git Merge Conflict
 
- <<<<<<< HEAD
- Hello from main branch!
- =======
- Hello from feature branch!
- >>>>>>> feature
+When mergin branches in Git, you might encouter a merge conflict if changes have been made to the same lines in the same file on diffence branches.
 
-You must choose either 'Hello from main branch!' or 'Hello from feature branch!' and remove "<<<<<<< HEAD",  "=======" and ">>>>>>> feature"
+For example, if there's a conflict, you may see something like this:
 
+'''plain text
+
+\<<<<<<< HEAD
+Hello from main branch!
+\=======
+Hello from feature branch!
+/>>>>>>> feature
+
+How to Resolve:
+- Choosee either Hello from main branch! or Hello from feature branch!, or combine them as you see fit.
+- Remove the conflict markers:
+    <<< HEAD
+    ======
+    />>> feature
+- After resolving the conflict, save the file, stage (sắp xếp) it using git add, and complete the merge with a git commit.
