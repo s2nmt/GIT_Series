@@ -52,7 +52,12 @@ How to Resolve:
     \<<< HEAD
 
     \======
-    
+
     \>>> feature
 
 - After resolving the conflict, save the file, stage (sắp xếp) it using git add, and complete the merge with a git commit.
+
+
+**Author:** Minh Tuan
+
+**Date:** 28 October, 2024
