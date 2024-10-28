@@ -8,4 +8,4 @@ Use the command "git branch". The screen will display the current branch.
 Use the following commands:
 git add .
 git commit -m "content"
-git push origin name_branch
+git push --set-upstream origin name_branch
