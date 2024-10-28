@@ -19,3 +19,9 @@
     git commit -m "content"
 
     git push --set-upstream origin name_branch
+5. You can switch main name_branch
+- Use command
+    git checkout main
+6. Merge new branch into main branch
+    git merge new
+**Note** It just import the newfile in newbranch. if in the one file have 
