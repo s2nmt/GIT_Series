@@ -50,7 +50,9 @@ How to Resolve:
 - Remove the conflict markers:
 
     \<<< HEAD
+
     \======
-    />>> feature
     
+    \>>> feature
+
 - After resolving the conflict, save the file, stage (sắp xếp) it using git add, and complete the merge with a git commit.
