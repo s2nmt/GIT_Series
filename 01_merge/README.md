@@ -39,14 +39,18 @@ For example, if there's a conflict, you may see something like this:
 
 \<<<<<<< HEAD
 Hello from main branch!
+
 \=======
 Hello from feature branch!
-/>>>>>>> feature
+
+\>>>>>>> feature
 
 How to Resolve:
 - Choosee either Hello from main branch! or Hello from feature branch!, or combine them as you see fit.
 - Remove the conflict markers:
-    <<< HEAD
-    ======
+
+    \<<< HEAD
+    \======
     />>> feature
+    
 - After resolving the conflict, save the file, stage (sắp xếp) it using git add, and complete the merge with a git commit.
