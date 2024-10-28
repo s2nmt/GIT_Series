@@ -24,4 +24,7 @@
     git checkout main
 6. Merge new branch into main branch
     git merge new
-**Note** It just import the newfile in newbranch. if in the one file have 
+
+**Note** Git will then integrate the changes from branch-name into the branch you're currently on.
+
+7. Resolve Conflicts (if any): if changes on both branches modify the same parts of a file, Git may be unbale to merge automatically and will mark these as conflicts. You need to resolve these conflicts manually, then complete the merge by staging the changes and committing them.
