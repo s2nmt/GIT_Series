@@ -3,10 +3,10 @@
 ## Introduction
 Ferching downloads a branch from another repository, along with all of its associated commits and files. But, it doesn't try to integrate anything into your local repository. This gives you chance to inspect changes before merging them with your project.
 
-## Hơ git fetch works with remote branches
+## How git fetch works with remote branches
 To better understand how git fetch works let us discuss how Git organizes and stores commits. Behind the scenes, in the repository's ./.git/objects directory, Git stores all commits, local and remote. Git keeps remote and local branch commits distinctly separate through the use of branch refs. The refs for local branches are stored in the ./.git/refs/heads/ .Executing the git branch command will output a list of the local branch refs. The following is an example of git branch output with some demo branch names.
 
-    git brnach
+    git branch
     main
     feature1
     debug2
