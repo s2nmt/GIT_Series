@@ -55,7 +55,7 @@ How to Resolve:
 
     \>>> feature
 
-- After resolving the conflict, save the file, stage (sắp xếp) it using git add, and complete the merge with a git commit.
+- After resolving the conflict, save the file, stage it using git add, and complete the merge with a git commit.
 
 
 **Author:** Minh Tuan
