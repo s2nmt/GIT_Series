@@ -1,4 +1,4 @@
-# Lesson 1: How to merge a project between the main branch and other branch
+# Lesson 1: How to use the merge command.
 
 1. Create new branch
 
