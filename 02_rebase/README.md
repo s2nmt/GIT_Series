@@ -57,4 +57,23 @@ It will list all available interactive options.
 
 The options it contains are listed below:
 - Selected (-p) Pick:
-    Pick means the commit will be included
+    Pick means the commit will be included. The order of the commits depends on the order of the pick commands during the rebase process. If you don't want to include the commit, you must delete the entire line.
+- Reword (-r):
+    The command is quite similar to the pick command. The keyword option pauses the rebase process and allows the opportunity to change the commit message. It does not affect any changes made by the commit.
+- Edit (-e):
+    The edit option allows for modifying the commit. The means of modification, commits can be added or completely changed. We can also make additional commits before the rebase command continues. It allows us to split a large commit into smaller commits. We can remove incorrect changes made in a commit.
+- Squash (-s):
+    Squash option allows you to combine two or more commits into a single commit. It also allows us to write a new commit message to describe the changes.
+- Fixup (-f):
+    It quite similar Squash command. It has removed the message of the merged commit. The older message commit is used to describe both changes.
+- Exec (-x):
+    The exec option allows you to run arbitrary shell commands with a commit.
+- Break (-b):
+    The break option stops the rebase at the specified point. It will continue the rebase afterward with the command git rebase --continue.
+- Drop (-d):
+    The drop option is used to delete a commit.
+- Label (-l):
+    The label option is used to mark the current head position with a name.
+- Reset (-t):
+    The reset option is used to reset to a specific label.
+
