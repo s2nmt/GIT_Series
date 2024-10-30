@@ -1,2 +1,1 @@
-This is a project for learning Git.
-hello
+This is a project 
