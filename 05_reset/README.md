@@ -5,5 +5,5 @@ the following command.
 - git reset --hard HEAD
 
 To clarify, git reset --hard HEAD resets your local files to the state of the last local commit. If you also want to pull the latest commit from Github, use
-git fetch --all
-git reset --hard origin/<branch-name>
+- git fetch --all
+- git reset --hard origin branch-name
