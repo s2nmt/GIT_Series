@@ -1,6 +1,6 @@
 # How to use git reset command
 
-    When you want to pull the latest commit and you have modified files in your local repo that you want to discard, you can clear all local changes and pull the latest commit from repo local using 
+When you want to pull the latest commit and you have modified files in your local repo that you want to discard, you can clear all local changes and pull the latest commit from repo local using 
 the following command.
 - git reset --hard HEAD
 
