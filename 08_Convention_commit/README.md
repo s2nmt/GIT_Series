@@ -4,16 +4,19 @@
 The Conventional Commits specification is a lightweigh convention on top of commit messages. It provides an easy set of rules for creating an explicit commit history. Which makes it easier to write automated tools on top of. This convention dovetail with SemVer, by describing the features, fixes, and breaking changes made in commit messages.
 
 The commit message should be structured as follows:
+
     <\type>[optional scope] : <\description>
     [optional body]
     [optional footer(s)]
 
 The commit contains the following structural elements, to communicate intent to the consumers of your library:
+
     1. fix: a commit of the type fix patches a bug in your codebase.
     2. feat: a commit of the type feat introduces a new feature to the codebase.
     3. BREAKING CHANGE: a commit that has a footer BREAKING CHANGE: or appends a ! after the type/scope, introduces a breaking API change.
     4. types other than fix: feat: are allowed, for example: buid, chore, ci (Continuous Integration), docs, style, refactor, perf, test and others
     5. footers other than BREAKING CHANGE: <description> may be previded and follow a convention similar to git trailer format.
+
 Additional types are not mandated the Conventional Commits specification, and have no implicit effect in Semantic versioning (unless they include a BREAKING CHANGE). A scope may be provided to a commit's type, to provide additional contextual information and is contained within parenthesis,. feat(parser): add ability to parse arrays.
 
 # Examples
@@ -59,8 +62,9 @@ The key words "MUST". "MUST NOT", "REQUIRED","SHALL","SHALL NOT", "SHOULD", "SHO
     14. Types other than feat and fix MAY be used in your commit messages, e.g., docs: update ref docs/
     15. he units of information that make up Conventional Commits MUST NOT be treated as case sensitive by implementors, with the exception of BREAKING CHANGE which MUST be uppercase.
     16. BREAKING_CHANGE MUST be synonymous with BREAKING CHANGE, when used as a tolen in footer.
-    
+
 # Why Use Conventional Commits
+
 - Automatically generating CHANGELOGs.
 - Automatically determining a semantic version bump(based on the types of commits landed).
 - Communicating the nature of changes ti teammates, the public, and other stakeholders.
