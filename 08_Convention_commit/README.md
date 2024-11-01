@@ -42,6 +42,7 @@ Additional types are not mandated the Conventional Commits specification, and ha
 
 ## Specification
 The key words "MUST". "MUST NOT", "REQUIRED","SHALL","SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTINAL" in this document are to be interpreted as described in [RFC 2119.](https://www.ietf.org/rfc/rfc2119.txt)
+
     1. Commit MUST be prefixed with a tyoe, which consists of a noun, feat,fix, etc.., followed by the OPTIONAL scope, OPTIONAL !, and REQUITED terminal colon and space.
     2. The type feat MUST be used when a commit adds a new feature to your application or library.
     3. The type fix MUST be used when a commit represents a bug fix for your application.
@@ -58,6 +59,7 @@ The key words "MUST". "MUST NOT", "REQUIRED","SHALL","SHALL NOT", "SHOULD", "SHO
     14. Types other than feat and fix MAY be used in your commit messages, e.g., docs: update ref docs/
     15. he units of information that make up Conventional Commits MUST NOT be treated as case sensitive by implementors, with the exception of BREAKING CHANGE which MUST be uppercase.
     16. BREAKING_CHANGE MUST be synonymous with BREAKING CHANGE, when used as a tolen in footer.
+    
 # Why Use Conventional Commits
 - Automatically generating CHANGELOGs.
 - Automatically determining a semantic version bump(based on the types of commits landed).
