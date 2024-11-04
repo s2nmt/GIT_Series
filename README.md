@@ -1,1 +1,1 @@
-This is a project to learn Git.
+This branch is used to test the git cherry pick command.
