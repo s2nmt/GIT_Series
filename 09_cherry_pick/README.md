@@ -5,7 +5,7 @@ The git cherry-pick command allows you to select (or "cherry-pick") specific com
 
 [refer](https://youtu.be/0lhtSgkK8SA?si=BnN7OqZ_2JW3XYKj)
 
-## git command
+## Git command
 - git cherry-pick id_commit
 or
 - git cherry-pick id_commit id_commit1 id_commit2 ...
